@@ -66,7 +66,7 @@ services:
       - PGID=1000
       - PEERS=0
     volumes:
-      - ./config:/config
+      - ./config:/config:ro
     ports:
       - 51820:51820/udp
     sysctls:
@@ -85,7 +85,7 @@ services:
       - "wireguard"
     restart: always
   wg-monitor:
-    image: kking124/wireguard-monitor:1.0
+    image: kking124/wireguard-monitor
     container_name: wireguard-monitor
     security_opt:
       - seccomp:unconfined # see parent image
