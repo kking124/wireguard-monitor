@@ -1,0 +1,11 @@
+# wgui.service
+# author: https://github.com/kking124
+# copyright: 2021
+# license: MIT
+[Unit]
+Description=Run Command
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash -c '/app/service.sh'
