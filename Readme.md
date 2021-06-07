@@ -19,8 +19,8 @@ docker run -d --name wg-monitor \
     -v /path/to/wireguard/config/folder:/etc/wireguard:ro # required
     -v /sys/fs/cgroup:/sys/fs/cgroup:ro \ # see parent image
     -v /var/run/docker.sock:/var/run/docker.sock \ #required
-    -e SVC_HOST=docker && \ #optional - currently docker is the only service host
-    -e CONTAINER=wireguard && \ #optional - default container name is wireguard
+    -e SVC_HOST=docker \ #optional - currently docker is the only service host
+    -e CONTAINER=wireguard \ #optional - default container name is wireguard
     kking124/wireguard-monitor
 ```
 
