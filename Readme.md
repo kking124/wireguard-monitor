@@ -126,5 +126,9 @@ Go to the project `src` directory and run the following command:
 docker build -t wireguard-monitor .
 ```
 
+## Contributions
+
+Please make all pull requests to `development`. Pull requests to `master` will be rejected.
+
 ## License
 MIT. See [LICENSE](https://github.com/kking124/wireguard-monitor/blob/master/LICENSE).
