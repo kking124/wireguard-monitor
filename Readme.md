@@ -1,4 +1,8 @@
 # wireguard-monitor
+[![Current Release](https://img.shields.io/github/v/release/kking124/wireguard-monitor)](https://hub.docker.com/r/kking124/wireguard-monitor)
+[![Current Issues](https://img.shields.io/github/issues/kking124/wireguard-monitor)](https://github.com/kking124/wireguard-monitor/issues)
+[![Current Pull Requests](https://img.shields.io/github/issues-pr/kking124/wireguard-monitor)](https://github.com/kking124/wireguard-monitor/pulls)
+[![License (MIT)](https://img.shields.io/github/license/kking124/wireguard-monitor)](https://github.com/kking124/wireguard-monitor/blob/master/LICENSE)
 
 A systemd service container to monitor `wg0.conf` and restart a docker container on the same host if the monitored file changes. 
 
