@@ -1,9 +1,9 @@
 # wgui.service
 # author: https://github.com/kking124
-# copyright: 2021
+# copyright: 2022
 # license: MIT
 [Unit]
-Description=Run Command
+Description=Monitor Wiregard Conf
 After=network.target
 
 [Service]
